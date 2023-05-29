@@ -1,38 +1,40 @@
-# create-svelte
+# Doc Search AI
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# GPT 3.5 Turbo Model Chat App
 
-## Creating a project
+This is a chat application that uses GPT 3.5 Turbo Model, Open AI Embeddings, Langchain, Vector Database using Chromadb to reference your own PDF or MD files to chat with Open AI's AI model. The chat interface is built using Sveltekit and Tailwind.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technologies Used
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Flask
+- Chromadb
+- Sveltekit
+- Pocketbase
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Installation
 
-## Developing
+1. Clone the repository
+2. Install dependencies using `npm install`
+3. Start the development server using `npm run dev`
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Usage
 
-```bash
-npm run dev
+1. Open the chat interface in your browser
+2. Type in your message and hit enter
+3. The app will use GPT 3.5 Turbo Model, Open AI Embeddings, Langchain, Vector Database using Chromadb to reference your own PDF or MD files to generate a response
+4. The response will be displayed in the chat interface
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Credits
 
-## Building
+This app was built using the following technologies:
 
-To create a production version of your app:
+- GPT 3.5 Turbo Model
+- Open AI Embeddings
+- Langchain
+- Vector Database using Chromadb
+- Sveltekit
+- Tailwind
 
-```bash
-npm run build
-```
+## License
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the MIT License. See the LICENSE file for details.
